@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FileRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>desktop-trampoline.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\GitHubDesktop\app-?.?.*\resources\app\desktop-trampoline\desktop-trampoline.exe</Wildcard>
+    <GUID>00344e9b-2295-41bf-97d4-76b0d4156bf3</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>GitHub Desktop</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>ProgramFilesDir%</FileName>
+    <Wildcard>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ProgramFilesDir%</Wildcard>
+    <GUID>05fef435-1c41-4232-8cc5-71e7c4fb7233</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>ProgramFiles Directory (registry path)</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>git-lfs.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\GitHubDesktop\app-?.?.*\resources\app\git\mingw64\libexec\git-core\git-lfs.exe</Wildcard>
+    <GUID>1f6f818a-36bf-48c2-a9e2-035b6d520918</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>GitHub Desktop</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>sed.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\GitHubDesktop\app-?.?.*\resources\app\git\usr\bin\sed.exe</Wildcard>
+    <GUID>269faf2c-29f1-486e-89f1-426faaf92163</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>GitHub Desktop</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>GitHubDesktop.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\GitHubDesktop\app-?.?.*\GitHubDesktop.exe</Wildcard>
+    <GUID>27fafc3e-36bd-48ce-9108-ede1b1abc320</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>GitHub Desktop</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>conhost.exe</FileName>
+    <Wildcard>\\?\C:\Windows\system32\conhost.exe</Wildcard>
+    <GUID>2d0ad155-a7c7-4f8c-a4c7-8fbfc4cd47b4</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Console Window Host</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName />
+    <Wildcard>C:\Windows\</Wildcard>
+    <GUID>3006f0b2-a20b-4e42-aba2-dc7aae40b06a</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Executables in Windows folder</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>GitHubDesktop.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\GitHubDesktop\GitHubDesktop.exe</Wildcard>
+    <GUID>3c0af03a-904f-4230-abef-8c0883ced622</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>GitHub Desktop</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Inactive</Status>
+    <Kind>SRP</Kind>
+    <FileName>setup*.exe</FileName>
+    <Wildcard>C:\Windows\Temp\{*}\.*\setup*.exe</Wildcard>
+    <GUID>3fc3d014-4b18-47e5-8576-d34c2ac185c0</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Setup files</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>winsdksetup.exe</FileName>
+    <Wildcard>C:\Windows\Temp\{*}\.??\winsdksetup.exe</Wildcard>
+    <GUID>572daa84-cdfa-4a91-8a23-fbef172c871c</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>WinSDKSetup</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>vc_redist.x64.exe</FileName>
+    <Wildcard>C:\Windows\Temp\{*}\.??\vc_redist.x64.exe</Wildcard>
+    <GUID>5b56e986-293b-4f4f-8fda-1f6b134897b5</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Visual C++ Redistributable setup</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>profile.ps1</FileName>
+    <Wildcard>C:\Users\*\Documents\WindowsPowerShell\profile.ps1</Wildcard>
+    <GUID>67a9a2bf-24a2-4970-a8b5-55ff66430e46</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>WindowsPowerShell profile</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>checkRunningTaskList???????????????????.vbs</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\Temp\checkRunningTaskList???????????????????.vbs</Wildcard>
+    <GUID>73678bb8-3941-423a-a077-0f02e4139977</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>checkRunningTaskList VB script</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>PowerShell_ISE.exe</FileName>
+    <Wildcard>C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe</Wildcard>
+    <GUID>78de7fd5-c615-4192-abe2-6d9cbc66943a</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>PowerShell_ISE</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>profile.ps1</FileName>
+    <Wildcard>C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1</Wildcard>
+    <GUID>7cf48fe9-a591-4f9e-a851-cee7879b0e15</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>PowerShell profile</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>powershell.exe</FileName>
+    <Wildcard>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Wildcard>
+    <GUID>ceff6c01-ab2c-430b-9d2e-8f45ac2d3c58</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>PowerShell profile</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>SystemRoot%</FileName>
+    <Wildcard>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRoot%</Wildcard>
+    <GUID>dc37f828-a0ca-4002-8dea-aa5bb96a0168</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Windows System32 folder</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>*.scr</Wildcard>
+    <GUID>000ea05a-49f7-4597-b6d7-23079825f708</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>ScreenSaver files (ransomware protection)</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\*.jse</Wildcard>
+    <GUID>01f9df01-998d-493e-984d-09b50ec8527b</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\*.com</Wildcard>
+    <GUID>07851e4b-cc61-418e-82d9-31a01adc50bc</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>FxsTmp</FileName>
+    <Wildcard>C:\Windows\System32\FxsTmp</Wildcard>
+    <GUID>08cbdeff-ee91-4b8f-8a05-5f102f930143</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>*.jse</Wildcard>
+    <GUID>0a1539cf-970f-4f1f-9a2c-c11c1fda7eee</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>*.js</Wildcard>
+    <GUID>0d4a4f9b-452a-4371-923e-f4233da1751e</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>vssadmin.exe</FileName>
+    <Wildcard>vssadmin.exe</Wildcard>
+    <GUID>0df5cda0-1b71-4c7d-9ef2-83cb0f86d987</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.js</Wildcard>
+    <GUID>0e473a9b-39c7-4dea-a0ce-2e94d04049da</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>svchost.exe</FileName>
+    <Wildcard>C:\Program Files\*\svchost.exe</Wildcard>
+    <GUID>10fa4a77-5748-4735-a3ca-01f9bef47b8f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.scr</Wildcard>
+    <GUID>12225bf0-618f-4054-8c58-bebd4e0486b2</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.exe</Wildcard>
+    <GUID>13df8d57-9ad1-4e32-b3f8-7867ae27ed04</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.scr</Wildcard>
+    <GUID>154a51d3-ee73-4477-92a9-63855a6c8cdc</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\ProgramData\*.cmd</Wildcard>
+    <GUID>16a8d5a7-a2ad-475a-bf9b-5a7dbf12e9b5</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.com</Wildcard>
+    <GUID>16c1f382-a405-450b-bd28-84b0e7f527b6</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.svchost.exe</FileName>
+    <Wildcard>C:\Program Files (x86)\*\*.svchost.exe</Wildcard>
+    <GUID>176d6dfd-45c9-4a56-8df1-56377f6d7895</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.exe</Wildcard>
+    <GUID>1a595f80-ee0a-4072-9887-0ab4f02c5dc8</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>scsvserv.exe</FileName>
+    <Wildcard>scsvserv.exe</Wildcard>
+    <GUID>1a9ac2dc-02eb-45f8-9e81-ab6b831088f6</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Program Files (x86)\*.pif</Wildcard>
+    <GUID>1c713dd6-6f84-463e-a5d1-ee87e5772caa</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>lsassvrtdbks.exe</FileName>
+    <Wildcard>lsassvrtdbks.exe</Wildcard>
+    <GUID>1cf7cbe5-539b-409b-ab21-7bd5a70c445f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*.pif</Wildcard>
+    <GUID>208a3bb7-5d16-4d53-aa40-126c4944591a</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>hh.exe</FileName>
+    <Wildcard>C:\Windows\hh.exe</Wildcard>
+    <GUID>22f5425e-4fb7-48d8-831d-5db001cdae82</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Program Files (x86)\*.js</Wildcard>
+    <GUID>243afc73-7f8e-4db9-8994-512d6e23b2e3</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>Tasks</FileName>
+    <Wildcard>C:\Windows\Tasks</Wildcard>
+    <GUID>287fa6af-1369-44b7-bfe6-5f49d57f40f9</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.js</Wildcard>
+    <GUID>2be4c031-8ad0-4a91-840a-3c3a1da0b481</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\*.bat</Wildcard>
+    <GUID>2c7c91d8-fe6b-4fde-8c8a-c18d643bc40e</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\AppData\*.pif</Wildcard>
+    <GUID>2d0832e3-cdab-4c70-8af6-6b791b9ca1a2</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\AppData\*.cmd</Wildcard>
+    <GUID>2f078a62-34c4-4584-8be3-a1ad75277887</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\*.cmd</Wildcard>
+    <GUID>35726bb7-b58f-4eb1-ba8f-5f590c70998f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*.exe</Wildcard>
+    <GUID>3722b777-85ba-40ce-821d-ad0c173db807</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>ERRORREP</FileName>
+    <Wildcard>C:\Windows\PCHEALTH\ERRORREP</Wildcard>
+    <GUID>37a228c9-2450-46d3-8faa-f9d7c94e6f47</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Windows\Temp\*.exe</Wildcard>
+    <GUID>39db46df-d892-434e-8953-e57d5fc27524</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.com</Wildcard>
+    <GUID>3afd2843-df29-4006-8917-2866d50c5d29</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.com</Wildcard>
+    <GUID>3e1ccb25-9c9e-43b0-b4f6-db6fd366b3e4</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>Registration</FileName>
+    <Wildcard>C:\Windows\Registration</Wildcard>
+    <GUID>47b17dee-f1f8-4fb2-ab69-953c519532cf</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>tracing</FileName>
+    <Wildcard>C:\Windows\tracing</Wildcard>
+    <GUID>494978e9-f50e-4d00-a65b-f1e17d647332</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*.cmd</Wildcard>
+    <GUID>4a296f4e-6e0f-4566-bec6-d62237bea363</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.cmd</Wildcard>
+    <GUID>4fe8d07a-a509-4dd3-a87a-867b0da29e12</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\*.exe</Wildcard>
+    <GUID>54a0c172-45cb-4ae6-8566-ad2d66eb036c</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\ProgramData\*.bat</Wildcard>
+    <GUID>596d8800-b2b4-4cf3-9571-7315687bed14</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*.scr</Wildcard>
+    <GUID>5bfb5c72-6588-4b50-b35d-fad472e22829</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*.com</Wildcard>
+    <GUID>5ea3d35f-f186-4dd4-a671-f9dabc4508e7</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\ProgramData\*.pif</Wildcard>
+    <GUID>60404ff6-7adf-4fdc-bbd0-89e7d21b0e72</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*.js</Wildcard>
+    <GUID>622e7426-8aca-42b1-b0f0-d826d1a5fda6</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.cmd</Wildcard>
+    <GUID>64bf29c8-662e-464b-a390-0ad5ff313291</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.pif</Wildcard>
+    <GUID>67f23277-2644-4ce0-a93d-9496d5e75541</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Program Files (x86)\*.cmd</Wildcard>
+    <GUID>6b94ac77-5688-4105-8076-7d3ddf242522</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>bcdedit.exe</FileName>
+    <Wildcard>bcdedit.exe</Wildcard>
+    <GUID>6d4876f3-cc49-417f-a195-7f54e1198b90</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.com</Wildcard>
+    <GUID>73a1f72e-1c94-4a1d-b4e8-9aa179efefe7</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>dmp</FileName>
+    <Wildcard>C:\Windows\System32\com\dmp</Wildcard>
+    <GUID>7419888f-1d98-49f0-a6e3-251498bd3315</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Program Files (x86)\*.bat</Wildcard>
+    <GUID>765f2b6a-68fb-4a12-9444-1bc8598bf921</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.jse</Wildcard>
+    <GUID>7662cb25-10cc-4e51-8a64-1d70d1f27c9e</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\AppData\*.js</Wildcard>
+    <GUID>77244577-0d40-41a6-97bd-6227928faf99</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.pif</Wildcard>
+    <GUID>77837f24-9196-4b72-8a9b-a78507d82e6f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.pif</Wildcard>
+    <GUID>7bb22f77-5104-4cf5-ab12-a606ff765230</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.exe</Wildcard>
+    <GUID>7c958646-a253-49d2-9035-79e9d03426d1</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>cipher.exe</FileName>
+    <Wildcard>cipher.exe</Wildcard>
+    <GUID>7d77d451-6a22-4b35-a7f7-69e4e35cfbaf</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\AppData\*.scr</Wildcard>
+    <GUID>7df33b01-2871-4c98-8ff7-b4637ed9cbb9</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.cmd</Wildcard>
+    <GUID>8255cd78-cb3c-4e73-9537-6302cf6331f1</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\*.exe</Wildcard>
+    <GUID>85b89d90-06e5-4db8-8c51-f4cc4cdb0c95</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\ProgramData\*.jse</Wildcard>
+    <GUID>85efcf8d-2974-4823-a3dc-7d71b1df77c9</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\*.pif</Wildcard>
+    <GUID>8a7e073b-c1a8-4937-8cd3-febc24de33fe</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.cmd</Wildcard>
+    <GUID>8bae5d3c-7b71-425a-8e25-387578469335</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>dmp</FileName>
+    <Wildcard>C:\Windows\SysWOW64\com\dmp</Wildcard>
+    <GUID>92b46114-0a36-4d27-8624-8fcb529ffe12</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Program Files (x86)\*.scr</Wildcard>
+    <GUID>93883c03-c685-4a15-9e6e-9fbb08389d25</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>lsassw86s.exe</FileName>
+    <Wildcard>lsassw86s.exe</Wildcard>
+    <GUID>93e53388-775a-469c-8381-ecf25436fa80</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.js</Wildcard>
+    <GUID>9439eeb7-e981-45cc-9bed-09a727e23ab3</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\ProgramData\*.exe</Wildcard>
+    <GUID>9489dc67-713c-4475-baa9-df86931819cd</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Program Files (x86)\*.jse</Wildcard>
+    <GUID>9901dc42-79d4-48a2-a80c-579f778b9d3c</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>color</FileName>
+    <Wildcard>C:\Windows\System32\spool\drivers\color</Wildcard>
+    <GUID>9c074ca0-39cd-4aea-b87d-9d744489c4a3</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\*.js</Wildcard>
+    <GUID>9c8ffe82-8257-4e7d-8c74-e48cc3d9957f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\ProgramData\*.scr</Wildcard>
+    <GUID>9d253ce7-183c-4077-8164-fa78382cc0ef</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.bat</Wildcard>
+    <GUID>9da9fe97-39ff-43bf-a85e-e4b11cea9d2f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*.bat</Wildcard>
+    <GUID>9f53699f-0eb3-41a5-b74c-fb45d5819b6a</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Program Files (x86)\*.com</Wildcard>
+    <GUID>a0461fbe-e2f5-4581-86a5-0cd3c242a372</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.scr</Wildcard>
+    <GUID>a1596200-53dc-43c7-908d-be1c2dd3205a</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>PRINTERS</FileName>
+    <Wildcard>C:\Windows\System32\spool\PRINTERS</Wildcard>
+    <GUID>a399020f-c9f7-4243-8aa8-3a5269a1f68c</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.jse</Wildcard>
+    <GUID>a454b98f-d397-4aab-9726-2028b34a0e25</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.jse</Wildcard>
+    <GUID>ac7a084c-bdea-4be2-af78-900828516c58</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\AppData\*.com</Wildcard>
+    <GUID>ae4eddbe-a3c5-4782-bf03-42ae77293317</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.bat</Wildcard>
+    <GUID>aea101d0-d3e4-4cdc-8914-af43a8a31673</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\ProgramData\*.js</Wildcard>
+    <GUID>b1382286-8cf3-4b15-b376-55faca607db8</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.scr</Wildcard>
+    <GUID>b289e1ee-d980-4682-8b11-fa09f59301fb</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.js</Wildcard>
+    <GUID>b66cbe23-8945-485f-9cc4-754f16f4e107</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.jse</Wildcard>
+    <GUID>bb7e51d4-6204-4f3e-8a2f-d6e0f7815b93</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>svchost.exe</FileName>
+    <Wildcard>C:\ProgramData\*\svchost.exe</Wildcard>
+    <GUID>bb931f27-af6b-4244-ad11-72f206389ae7</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.scr</Wildcard>
+    <GUID>bf01b357-3752-4a04-8061-dfcda6d7f51c</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Program Files (x86)\*.exe</Wildcard>
+    <GUID>bf54cd86-92ee-4133-bf06-4961a79a420b</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>FxsTmp</FileName>
+    <Wildcard>C:\Windows\SysWOW64\FxsTmp</Wildcard>
+    <GUID>bfd81066-d7ee-4604-81fd-0f64fc06628b</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.scr</FileName>
+    <Wildcard>C:\Users\*\*.scr</Wildcard>
+    <GUID>c0e1d4da-2496-4874-8bed-ca3e8ca8ec92</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.pif</Wildcard>
+    <GUID>c327f632-5ac8-4af5-9384-994b0d94ccc4</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\AppData\*.jse</Wildcard>
+    <GUID>c55091e7-462b-41c1-8863-27b871a66a71</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.bat</Wildcard>
+    <GUID>c9a15d57-f8d9-4adf-8232-ea846f11dff9</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.com</Wildcard>
+    <GUID>c9c7e767-995a-4435-bbdb-6c0c00b7ad15</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.pif</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.pif</Wildcard>
+    <GUID>ce4977fc-adcf-4aca-a29a-6e83929b5c6f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.com</FileName>
+    <Wildcard>C:\ProgramData\*.com</Wildcard>
+    <GUID>d3178b20-e75a-4d34-99f2-72d63c677c05</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.jse</Wildcard>
+    <GUID>d5d0d5a7-fed0-420e-8107-3804490ca086</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>$Recycle.Bin</FileName>
+    <Wildcard>*:\$Recycle.Bin</Wildcard>
+    <GUID>d683ec47-fb8d-40ae-9c28-7ed0463dbfcf</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\AppData\*.bat</Wildcard>
+    <GUID>d80030f7-b8b9-4f55-995b-e1b79cee6ec8</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>SERVERS</FileName>
+    <Wildcard>C:\Windows\System32\spool\SERVERS</Wildcard>
+    <GUID>dabbb149-7165-4178-b4ef-959699b47b49</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.exe</Wildcard>
+    <GUID>dacaa82a-e523-4261-9ab1-adec6fe3389f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>runas.exe</FileName>
+    <Wildcard>runas.exe</Wildcard>
+    <GUID>dd6a36d8-0680-4dc8-861f-3c1aceb74d5f</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.cmd</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.cmd</Wildcard>
+    <GUID>df17ed57-52ad-4f8b-bf7f-6ee2caab55c7</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>catroot2</FileName>
+    <Wildcard>C:\Windows\System32\catroot2</Wildcard>
+    <GUID>e11aa727-225d-4c86-962d-c3a24eb0f0db</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>Tasks</FileName>
+    <Wildcard>C:\Windows\System32\Tasks</Wildcard>
+    <GUID>e89b0114-46d8-4ab3-92ae-1fd34e9a6cf6</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\Users\*\AppData\Roaming\*.bat</Wildcard>
+    <GUID>e8d2cfa9-7613-419f-8d10-780438140221</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.jse</FileName>
+    <Wildcard>C:\Users\*.jse</Wildcard>
+    <GUID>e8e9d062-c8c0-4286-a83b-7dab0e0929b2</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>Tasks</FileName>
+    <Wildcard>C:\Windows\SysWOW64\Tasks</Wildcard>
+    <GUID>ea78984d-7b3a-49fe-86ce-900cd3c5b561</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.js</FileName>
+    <Wildcard>C:\Users\*\AppData\LocalLow\*.js</Wildcard>
+    <GUID>eb701225-6348-4cf0-9288-6dcba744c0d4</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>mshta.exe</FileName>
+    <Wildcard>mshta.exe</Wildcard>
+    <GUID>ec126fcb-abb2-4113-ad8b-cf59dac14d5a</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>debug </FileName>
+    <Wildcard>C:\Windows\debug </Wildcard>
+    <GUID>f516d9c0-f0fe-4077-9b65-0aa4b53edc34</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.exe</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\*.exe</Wildcard>
+    <GUID>f8643df5-0b0f-46cd-809d-ac43281fd85b</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>*.bat</FileName>
+    <Wildcard>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*.bat</Wildcard>
+    <GUID>ff171b73-3904-450a-a4f5-fd27574ec279</GUID>
+    <RuleAction>Block</RuleAction>
+    <Description>Ransomware protection</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>__PSScriptPolicyTest_????????.???.ps1</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\Temp\__PSScriptPolicyTest_????????.???.ps1</Wildcard>
+    <GUID>a73e409e-f4e1-4512-835b-6261e1f1499a</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Cannot dot-source this command because it was defined in a different language mode</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+  <Rule>
+    <Status>Unchanged</Status>
+    <Kind>SRP</Kind>
+    <FileName>__PSScriptPolicyTest_????????.???.psm1</FileName>
+    <Wildcard>C:\Users\*\AppData\Local\Temp\__PSScriptPolicyTest_????????.???.psm1</Wildcard>
+    <GUID>2b97759c-f576-46ff-a7cb-6fb51985782b</GUID>
+    <RuleAction>Allow</RuleAction>
+    <Description>Cannot dot-source this command because it was defined in a different language mode</Description>
+    <Direction xsi:nil="true" />
+    <Profiles xsi:nil="true" />
+    <Protocol xsi:nil="true" />
+  </Rule>
+</FileRules>
