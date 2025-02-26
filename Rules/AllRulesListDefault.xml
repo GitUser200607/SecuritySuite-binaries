@@ -1516,7 +1516,7 @@
     <Status>Unchanged</Status>
     <Kind>SRP</Kind>
     <FileName>debug </FileName>
-    <Wildcard>C:\Windows\debug </Wildcard>
+    <Wildcard>C:\Windows\debug</Wildcard>
     <GUID>f516d9c0-f0fe-4077-9b65-0aa4b53edc34</GUID>
     <RuleAction>Block</RuleAction>
     <Description>Ransomware protection</Description>
